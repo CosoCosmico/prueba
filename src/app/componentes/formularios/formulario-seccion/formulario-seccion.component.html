@@ -1,1 +1,7 @@
-<p>formulario-seccion works!</p>
+<section>
+  <fieldset>
+    <label>Nombre de la seccion:</label>
+    <input type="text" name="seccion" [value]="nuevaSeccion.seccion" (input)="seccionDocente($event)">
+  </fieldset>
+  <button (click)="guardarSeccion()"></button>
+</section>

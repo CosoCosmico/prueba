@@ -5,15 +5,15 @@
   </fieldset>
   <fieldset>
     <label>Nombre del estudiante:</label>
-    <input type="text" name="rut" [value]="nuevoAlumno.nombre" (input)="alumnoNombre($event)">
+    <input type="text" name="nombre" [value]="nuevoAlumno.nombre" (input)="alumnoNombre($event)">
   </fieldset>
   <fieldset>
     <label>Apellido del estudiante:</label>
-    <input type="text" name="rut" [value]="nuevoAlumno.apellido" (input)="alumnoApellido($event)">
+    <input type="text" name="apellido" [value]="nuevoAlumno.apellido" (input)="alumnoApellido($event)">
   </fieldset>
   <fieldset>
     <label>Edad del estudiante:</label>
-    <input type="text" name="rut" [value]="nuevoAlumno.edad" (input)="alumnoEdad($event)">
+    <input type="text" name="edad" [value]="nuevoAlumno.edad" (input)="alumnoEdad($event)">
   </fieldset>
 
   <button (click)="guardarAlumno()"></button>
