@@ -7,7 +7,6 @@ import { AlumnoComponent } from './componentes/alumno/alumno.component';
 import { HistorialComponent } from './componentes/historial/historial.component';
 import { FormularioAlumnoComponent } from './componentes/formularios/formulario-alumno/formulario-alumno.component';
 import { FormularioSeccionComponent } from './componentes/formularios/formulario-seccion/formulario-seccion.component';
-import { ListaSeccionComponent } from './componentes/listas/lista-seccion/lista-seccion.component';
 import { ListaAlmunosComponent } from './componentes/listas/lista-almunos/lista-almunos.component';
 import { ListaHistorialComponent } from './componentes/listas/lista-historial/lista-historial.component';
 
@@ -18,7 +17,6 @@ import { ListaHistorialComponent } from './componentes/listas/lista-historial/li
     HistorialComponent,
     FormularioAlumnoComponent,
     FormularioSeccionComponent,
-    ListaSeccionComponent,
     ListaAlmunosComponent,
     ListaHistorialComponent
   ],
